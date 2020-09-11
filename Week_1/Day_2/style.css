@@ -1,0 +1,127 @@
+.info {
+  background-color: blue;
+  color: white;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: font-weight 100ms linear 0s;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: green;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0px;
+}
+
+section h2 {
+  font-weight: bold;
+  font-size: 28px;
+  margin-top: 0px;
+}
+
+h3 {
+  font-weight: normal;
+  font-size: 21px;
+}
+
+#about p::first-letter{
+  font-weight: bold;
+}
+
+footer {
+  color: white;
+  background-color: rgb(46, 43, 43);
+}
+
+footer a {
+  font-weight: lighter;
+  font-size: 12px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.menu-link {
+  margin-left: 10px;
+}
+
+.profile {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.work {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.work-dates {
+  margin-right: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.work-details {
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skill-level {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.progress {
+  flex-grow: 2;
+}
+
+meter {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+meter::-webkit-meter-optimum-value {
+  background: white;
+  border-radius: 15px;
+}
+
+meter::-webkit-meter-bar {
+  background: blue;
+  border: none;
+}
+
+h1::selection, h2::selection, h3::selection, h5::selection, p::selection, span::selection {
+  color: green;
+}
